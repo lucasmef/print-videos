@@ -1,0 +1,25 @@
+# Builds e resultados locais
+build/
+analysis/
+Prints dos vídeos/
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Credenciais e configurações pessoais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.credentials*
+.aws/
+.ssh/
+
+# Mídia de entrada
+*.[mM][oO][vV]
+*.[mM][pP]4
+*.[mM]4[vV]
+*.[aA][vV][iI]
